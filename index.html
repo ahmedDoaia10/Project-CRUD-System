@@ -1,0 +1,90 @@
+<html>
+
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet"> -->
+<title>Project CRUD System</title>
+ <link rel="icon" href="img/product.jpeg">
+
+</head>
+
+<body>
+
+  <div class="w-50 m-auto my-5 shadow p-4 rounded-3">
+    <h1 class="text-center mb-2">CRUD System</h1>
+    <form>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="ProductName" placeholder="type title...">
+        <label for="ProductName">Product Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="ProductCategory" placeholder="type category...">
+        <label for="ProductCategory">Product Category</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="ProductPrice" placeholder="type Price...">
+        <label for="ProductPrice">Product Price</label>
+      </div>
+
+      <div class="mb-3">
+        <input type="file" class="form-control" placeholder="type Price...">
+      </div>
+
+      <div class="form-floating mb-3">
+        <textarea class="form-control" placeholder="Leave a comment here" id="ProductDescription"></textarea>
+        <label for="ProductDescription">Product Description</label>
+      </div>
+
+      <button onclick="GetInputValue()" id="addBtn" type="button" class="btn btn-success  ">Add Product</button>
+      <button onclick="SaveProduct()" id="saveBtn"  type="button" class="btn btn-warning ms-1 ">Save</button>
+    </form>
+  </div>
+
+
+  <div class="container mb-5 ">
+    <input type="text" class="form-control" placeholder="Search...">
+    <div class="row pt-4 gy-4    " id="demo">
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
